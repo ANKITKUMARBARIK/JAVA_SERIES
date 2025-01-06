@@ -1,9 +1,9 @@
 public class fifth {
-    public static void funcName(String username) {
+    static void funcName(String username) {
         System.out.println("username : " + username);
     }
 
-    public static int funcPass(int pass) {
+    static int funcPass(int pass) {
         System.out.println("password : " + pass);
         return pass;
     }
