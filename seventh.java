@@ -4,7 +4,7 @@ public class seventh {
     int y;
 
     // member functions
-    public void stud() {
+    void stud() {
         System.out.println("Public methods must be called by creating objects");
     }
 
