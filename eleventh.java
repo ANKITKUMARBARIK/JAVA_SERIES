@@ -34,14 +34,27 @@ class Example {
             System.out.println("Static Nested Class");
         }
     }
-    // 🔥 4. Static Nested Class
+    // 🔥 Static Nested Class
     // ☑ Ek class ke andar ek aur class hoti hai jo static hoti hai.
-    // ☑ Static nested class ko bina outer class ka object banaye access kar sakte hain.
-    // ☑ Static nested class ko directly OuterClass.InnerClass likhkar access kar sakte hain.
+    // ☑ Static nested class ko bina outer class ka object banaye access kar sakte
+    // hain.
+    // ☑ Static nested class ko directly OuterClass.InnerClass likhkar access kar
+    // sakte hain.
 }
 
 public class eleventh {
+    static {
+        System.out.println("Static Block Executed!");
+    }
+
+    // 🔥 Static Block
+    // ☑ Jab class load hoti hai tab execute hota hai.
+    // ☑ Ek class me multiple static blocks ho sakte hain, jo top-to-bottom execute
+    // hote hain.
+    // ☑ Main method se pehle execute hota hai.
+    // ☑ Yaha static block main method se pehle execute hota hai.
     public static void main(String args[]) {
+        System.out.println("Main Method Executed!");
 
         //
         System.out.println("STATIC CONCEPT-------------");
@@ -62,7 +75,7 @@ public class eleventh {
         // specific..agar ye class ka ek bhi object nhi banau toh bhi lname variable
         // banega
 
-        Example.innerExample.show();   // class name se static static inner class ko access kr sakte hain
-        
+        Example.innerExample.show(); // class name se static static inner class ko access kr sakte hain
+
     }
 }
