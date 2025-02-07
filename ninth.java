@@ -1,10 +1,10 @@
 public class ninth {
     public static void main(String[] args) {
         // integral numbers
-        byte a = 20;
-        short b = 20;
-        int c = 20;
-        long d = 20l;
+        // byte a = 20;
+        // short b = 20;
+        // int c = 20;
+        // long d = 20l;
 
         System.out.println(Byte.MIN_VALUE);
         System.out.println(Byte.MAX_VALUE);
@@ -16,8 +16,8 @@ public class ninth {
         System.out.println(Long.MAX_VALUE);
 
         // decimal numbers
-        float salary = 1000.567f;
-        double rate = 1000.5675555555555678;
+        // float salary = 1000.567f;
+        // double rate = 1000.5675555555555678;
         System.out.println(Float.MIN_VALUE);
         System.out.println(Float.MAX_VALUE);
         System.out.println(Double.MIN_VALUE);
