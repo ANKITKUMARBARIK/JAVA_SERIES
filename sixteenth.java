@@ -7,6 +7,7 @@ class Animal {
 class Dog extends Animal {
     public void displayInfo() {
         System.out.println("I am a dog.");
+        // super.displayInfo();
     }
 }
 
