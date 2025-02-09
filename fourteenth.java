@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Student {
     protected int rollno = 83;
     String name = "admin";
