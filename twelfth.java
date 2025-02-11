@@ -14,6 +14,7 @@ public class twelfth {
         // Java
         // String Pool ka concept use karta hai.
         // String Pool kya hota hai?
+        // String Pool Heap memory ka ek part h...ye heap memory ke andar rahta h .... c aur d ye reference variable h ...jo address store kr rhe hain String Pool ke strings ka.. 
         // Java mein strings ko optimize karne ke liye String Pool naam ka ek memory
         // area hota hai. Jab bhi tum ek string literal ("Ram") banate ho, to Java check
         // karta hai ki kya yeh string pool mein already exist karti hai ya nahi. Agar
