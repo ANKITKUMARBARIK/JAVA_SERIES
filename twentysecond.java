@@ -31,6 +31,7 @@ public class twentysecond {
 // Abstract Class
 // Abstract classes are declared with the abstract keyword.
 // An abstract class cannot be instantiated.
+// An abstract class we can create constructor.
 // An abstract class we can't create object for that class
 // common properties ko provide krne ke lie hum abstract class bana lete
 // hain...kyu ki bohot saare class ki property similar hoti h......aur baki sb
