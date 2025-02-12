@@ -73,3 +73,13 @@ public class twentythird {
 // func() method by default public h aur abstract bhi h
 // x variable by default public, static, final hoti h
 // interface mein abstract method ke alawa koi method nhi banta
+
+// -> An Interface may have only public, default.
+// -> Interface can have only public members. And we can't write any access
+// modifier.
+// -> In Interface all methods are bydefault - public, abstract.
+// -> Interface we can use private, static methods.
+// -> In Interface all variables are bydefault - public, static, final.
+// -> Interface cannot have defined methods but we can initialize variables but
+// not declare only.
+// -> Interface do not have constructor unlike Abstract class.
