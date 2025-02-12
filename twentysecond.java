@@ -1,5 +1,5 @@
 abstract class Account {
-    abstract void calculateInterest();  // like services
+    abstract void calculateInterest(); // like services
 }
 
 class SavingAccount extends Account {
@@ -57,3 +57,13 @@ public class twentysecond {
 // entire class must be declared abstract...
 // If a class has abstract class...then it's not compulsory in abstract class
 // has any abstract method
+
+// -> An abstract class may have only public, protected, default.
+// -> Abstract class can have only this access modifiers for members and
+// functions ex - public, protected, default, private
+// -> Abstract class may have final, static or non-final, non-static members.
+// -> Abstract class may or may not contain abstract method.
+// -> In abstract class we can declare or define the normal functions or
+// variables by using any access modifier...but when u make abstract method then
+// should be make only declaration not definition.....it needs to be subclassed
+// by another class to use its properties.
