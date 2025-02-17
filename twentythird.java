@@ -35,7 +35,7 @@ public class twentythird {
 // abstract) and can only contain fields (which are implicitly public static
 // final).
 
-// class ka access modifier by default private hota h
+// class ka access modifier by default default hota h
 // interface ka access modifier by default public hota h - member and functions
 // sab public hota h by default....one more thing we can't explicitly give the
 // access modifier.
