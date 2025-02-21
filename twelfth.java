@@ -1,4 +1,5 @@
 public class twelfth {
+    // String ek predefined class h ..ye java.lang package mein hota hai..aur ye ek final class h...String class is immutable.  
     public static void main(String[] args) {
         System.out.println("Strings");
         String a = new String("Ram");
@@ -9,7 +10,8 @@ public class twelfth {
         // false --HEAP MEMORY - because a aur b ka memory location different hai ..jab
         // hum new ka use krte hain toh ek naya object banta h.. a ka new object aur b
         // ka new object ...islie dono alag alag location h that's why false h..
-        System.out.println(c == d);
+        System.out.println(c == d);  // ye reference compare krta hain
+        System.out.println(c.equals(b));  // ye strings compare krte hain..true kyu ki equals() ye method values dekhta h...
         // true -- because Jab tum String c = "Ram"; aur String d = "Ram"; likhte ho, to
         // Java
         // String Pool ka concept use karta hai.
